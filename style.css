@@ -1,0 +1,119 @@
+body {
+    background-image: url('Background.jpg');
+    background-size: 32rem ;
+    background-repeat: repeat;
+}
+
+.information {
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 900px;
+    box-shadow: 10px 10px;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    font-weight: 1000;
+    font-family: 'Inter', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid black; 
+    margin: 5px 0; 
+  }
+
+.content {
+    width: 100%;
+    display: flex;
+    margin-top: 2%;
+}
+
+.content div:first-child {
+    flex: 5;
+}
+
+.content div:last-child {
+    flex: 3;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+h2, h3, ul, ol{
+    font-family: 'Inter', sans-serifs;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2{
+    font-size: 150%;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h3, ul, ol {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 526px;
+    height: 340px;
+}
+
+audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+h4 {
+    font-family: 'Inter', san-serif;
+    font-size: 100%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+.Image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 95%;
+}
+
+.Image2 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
